@@ -1,8 +1,9 @@
-﻿using Jobs.Domain.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace Jobs.DataAccess.Contexts
+﻿namespace Jobs.DataAccess.Contexts
 {
+    using Jobs.DataAccess.Configurations;
+    using Jobs.Domain.Models;
+    using Microsoft.EntityFrameworkCore;
+
     public class JobContext : DbContext
     {
 
@@ -11,6 +12,12 @@ namespace Jobs.DataAccess.Contexts
         public JobContext(DbContextOptions<JobContext> options) : base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new JobEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new JobTypeEntityTypeConfiguration());
         }
     }
 }

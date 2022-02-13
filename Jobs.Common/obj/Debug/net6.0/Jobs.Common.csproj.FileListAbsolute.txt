@@ -1,0 +1,12 @@
+D:\projects\Jobs\Jobs.Common\bin\Debug\net6.0\Jobs.Common.deps.json
+D:\projects\Jobs\Jobs.Common\bin\Debug\net6.0\Jobs.Common.dll
+D:\projects\Jobs\Jobs.Common\bin\Debug\net6.0\ref\Jobs.Common.dll
+D:\projects\Jobs\Jobs.Common\bin\Debug\net6.0\Jobs.Common.pdb
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.csproj.AssemblyReference.cache
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.AssemblyInfoInputs.cache
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.AssemblyInfo.cs
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.csproj.CoreCompileInputs.cache
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.dll
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\ref\Jobs.Common.dll
+D:\projects\Jobs\Jobs.Common\obj\Debug\net6.0\Jobs.Common.pdb

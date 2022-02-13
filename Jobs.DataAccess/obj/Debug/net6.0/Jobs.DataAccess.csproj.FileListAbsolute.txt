@@ -1,0 +1,17 @@
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.DataAccess.deps.json
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.DataAccess.runtimeconfig.json
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.DataAccess.dll
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\ref\Jobs.DataAccess.dll
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.DataAccess.pdb
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.Domain.dll
+D:\projects\Jobs\Jobs.DataAccess\bin\Debug\net6.0\Jobs.Domain.pdb
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.csproj.AssemblyReference.cache
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.AssemblyInfoInputs.cache
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.AssemblyInfo.cs
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.csproj.CoreCompileInputs.cache
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.csproj.CopyComplete
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.dll
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\ref\Jobs.DataAccess.dll
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.pdb
+D:\projects\Jobs\Jobs.DataAccess\obj\Debug\net6.0\Jobs.DataAccess.genruntimeconfig.cache

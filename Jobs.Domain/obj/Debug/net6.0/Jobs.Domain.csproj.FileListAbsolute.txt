@@ -1,0 +1,12 @@
+D:\projects\Jobs\Jobs.Domain\bin\Debug\net6.0\Jobs.Domain.deps.json
+D:\projects\Jobs\Jobs.Domain\bin\Debug\net6.0\Jobs.Domain.dll
+D:\projects\Jobs\Jobs.Domain\bin\Debug\net6.0\ref\Jobs.Domain.dll
+D:\projects\Jobs\Jobs.Domain\bin\Debug\net6.0\Jobs.Domain.pdb
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.csproj.AssemblyReference.cache
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.AssemblyInfoInputs.cache
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.AssemblyInfo.cs
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.csproj.CoreCompileInputs.cache
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.dll
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\ref\Jobs.Domain.dll
+D:\projects\Jobs\Jobs.Domain\obj\Debug\net6.0\Jobs.Domain.pdb
