@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 //extensions
 builder.Services.ContextsInject(builder.Configuration);
-
+builder.Services.RepositoriesInject();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

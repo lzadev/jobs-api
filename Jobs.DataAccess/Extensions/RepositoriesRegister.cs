@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Jobs.DataAccess.Extensions
+﻿namespace Jobs.DataAccess.Extensions
 {
-    internal class RepositoriesRegister
+    using Jobs.DataAccess.Abstract.UnitOfWork;
+    using Jobs.DataAccess.Concret.UnitOfWork;
+    using Jobs.DataAccess.Repositories.Abstract;
+    using Jobs.DataAccess.Repositories.Concret;
+    using Microsoft.Extensions.DependencyInjection;
+    public static class RepositoriesRegister
     {
+        public static void RepositoriesInject(this IServiceCollection services)
+        {
+            services.AddTransient<IJobRepository, JobRepository>();
+            services.AddTransient<IJobTypeRepository, JobTypeRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+        }
     }
 }
