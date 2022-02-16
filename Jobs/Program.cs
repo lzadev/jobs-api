@@ -1,3 +1,4 @@
+using Jobs.BussinessLogic.Extensions;
 using Jobs.DataAccess.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,9 @@ builder.Services.AddSwaggerGen();
 //extensions
 builder.Services.ContextsInject(builder.Configuration);
 builder.Services.RepositoriesInject();
+builder.Services.HttpClientsInject(builder.Configuration);
+builder.Services.ServicesInject();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

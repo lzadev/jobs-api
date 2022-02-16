@@ -14,13 +14,9 @@
         {
             this.context = context;
         }
-
         public IJobRepository JobRepository => JobRepository ?? new JobRepository(context);
-
         public IJobTypeRepository JobTypeRepository => JobTypeRepository ?? new JobTypeRepository(context);
-
         public async Task<int> Commit() => await context.SaveChangesAsync();
-
         public void Dispose()
         {
             context.Dispose();

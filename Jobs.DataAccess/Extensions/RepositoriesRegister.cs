@@ -11,6 +11,7 @@
         {
             services.AddTransient<IJobRepository, JobRepository>();
             services.AddTransient<IJobTypeRepository, JobTypeRepository>();
+            services.AddTransient<ICityRepository, CityRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
     }
