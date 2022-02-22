@@ -8,6 +8,7 @@
         public static void ServicesInject(this IServiceCollection services)
         {
             services.AddTransient<ICityService, CityService>();
+            services.AddTransient<IJobTypeService, JobTypeService>();
 
 
             //AutoMapper

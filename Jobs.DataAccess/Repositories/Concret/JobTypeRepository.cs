@@ -14,9 +14,21 @@
             this.context = context;
             dbset = this.context.Set<JobType>();
         }
-        public IEnumerable<JobType> GetJobTypes()
+        public async Task<IEnumerable<JobType>> GetJobTypes()
         {
-            return dbset.ToList().OrderByDescending(jt => jt.Name);
+            return await dbset.OrderByDescending(jt => jt.Name).ToListAsync();
+        }
+        
+        public async Task<JobType> Add(JobType jobType)
+        {
+            await dbset.AddAsync(jobType);
+
+            return jobType;
+        }
+
+        public async Task Save()
+        {
+            await context.SaveChangesAsync();
         }
     }
 }

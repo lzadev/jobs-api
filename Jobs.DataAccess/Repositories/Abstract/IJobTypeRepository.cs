@@ -3,6 +3,9 @@
     using Jobs.Domain.Models;
     public interface IJobTypeRepository
     {
-        IEnumerable<JobType> GetJobTypes();
+        Task<IEnumerable<JobType>> GetJobTypes();
+        Task<JobType> Add(JobType jobType);
+        Task Save();
+
     }
 }
